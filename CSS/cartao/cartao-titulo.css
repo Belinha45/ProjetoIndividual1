@@ -1,0 +1,30 @@
+.cartao_titulo {
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+/*                  Responsividade                   */
+
+@media screen and (min-width:0) {
+    .cartao_titulo {
+        font-size: 77px;
+    }
+}
+
+@media screen and (min-width:768px){
+    .cartao_titulo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:992px){
+    .cartao_titulo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:2560px) {
+
+}

@@ -1,0 +1,36 @@
+.descrição {
+    font-size: 17px;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*                  Responsividade                   */
+
+@media screen and (min-width:0) {
+    .descrição {
+        font-size: 45px;
+        line-height: 2.999rem;
+    }
+}
+
+@media screen and (min-width:768px){
+    .descrição {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .descrição {
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .descrição {
+        font-size: 35px;
+        line-height: 2.99rem;
+    }
+}

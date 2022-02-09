@@ -1,0 +1,36 @@
+.cartao {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+}
+
+/*                  Responsividade                   */
+
+@media screen and (min-width:0) {
+    .cartao{
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cartao {
+        margin-right: 4rem;
+        width: calc(44.44% - 2.5rem);
+    }
+}
+
+@media screen and (min-width:1180px) {
+    .cartao {
+        margin-right: 5rem;
+        width: 26%;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .cartao {
+        margin-right: 4rem;
+    }
+}

@@ -1,0 +1,146 @@
+.fundo {
+    background-attachment:local;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+
+}
+
+.conteudo {
+    grid-area: "conteudo";
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 935px;
+    height: 520px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.foto {
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+/* section{
+    background-color: #000000;
+} */
+
+@keyframes animacao {
+    25%{
+        opacity: 1;
+        transform: scale(1.1,1.1);
+
+    }
+
+    50%{
+        opacity: 0;
+    }
+}
+
+.foto:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.foto:nth-child(2) {
+    animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+    animation-delay: 15s;
+}
+
+.foto:nth-child(5) {
+    animation-delay: 20s;
+}
+
+/*                  Responsividade                   */
+
+@media screen and (min-width: 0) {
+   .fundo {
+    background-image: linear-gradient(to bottom,#3EDBF0, #FB3640);
+    }
+}
+
+@media screen and (min-width:768px){
+    .fundo {
+        background: url(../Imagens/opção3.png);
+        background-attachment:local;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .foto{
+        width: 100%;
+        height: 100%;
+    }
+
+    .conteudo{
+        width: 488px;
+        height: 312px;
+        background-size:100%;
+        background-attachment: local;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .fundo {
+        background: url(../Imagens/opção3.png);
+        background-attachment:local;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .conteudo {
+        margin: 30px auto;
+        border-radius: 20px;
+        /* width: 688px;
+        height: 412px; */
+        width: 935px;
+        height: 520px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .fundo {
+        background: url(../Imagens/opção3.png);
+        background-attachment:local;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .conteudo {
+        margin: 30px auto;
+        border-radius: 20px;
+        width: 935px;
+        height: 520px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .fundo {
+        background: url(../Imagens/opção3\ -\ Copia.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .conteudo {
+        margin: 30px auto;
+        border-radius: 20px;
+        width: 1880px;
+        height: 1020px;
+        position: relative;
+        overflow: hidden;
+    }
+}
