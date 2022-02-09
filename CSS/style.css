@@ -6,6 +6,8 @@
     "rodape";
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
+    transform: scale(1.0);
+    transform-origin: 0 0;
 }
 
 .cabecalho {
