@@ -39,10 +39,7 @@ footer, .rodape {
 }
 
 @media screen and (min-width:0){
-    .corpo {
-        transform: scale(1);
-        transform-origin: 0 0;
-    }
+
 }
 
 @media screen and (min-width:768px){
