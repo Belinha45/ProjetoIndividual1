@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1100px) {
     .fundo {
         background: url(../Imagens/opção3.png);
         background-attachment:local;
