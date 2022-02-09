@@ -6,8 +6,6 @@
     "rodape";
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
-    transform: scale(1.0);
-    transform-origin: 0 0;
 }
 
 .cabecalho {
@@ -38,4 +36,15 @@ footer, .rodape {
 }
 ::-webkit-scrollbar-thumb {
     background: #dad7d7;
+}
+
+@media screen and (min-width:0){
+    .corpo {
+        transform: scale(0.1);
+        transform-origin: 0 0;
+    }
+}
+
+@media screen and (min-width:768px){
+
 }
