@@ -1,0 +1,12 @@
+.card_titulo {
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif; 
+    transition: all 0.3s ease-out;
+    border: none;
+}
+
+
+

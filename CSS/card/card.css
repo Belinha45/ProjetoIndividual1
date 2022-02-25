@@ -1,0 +1,42 @@
+.card {
+    /* background: rgb(37,35,48); */
+    /* background: linear-gradient(90deg, rgba(37,35,48,1) 0%, rgba(77,77,78,1) 54%, rgba(37,35,48,1) 85%); */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 40px;
+    margin: 20px;
+    width: 455px;
+    /* transition: all 0.3s ease-out; */
+    transition: box-shadow 0.1s;
+    border: 4px solid #fd93c1;
+    
+}
+
+.card:hover {
+    color: #EE3030;
+    text-shadow: 0px 0px 10px #EE3030;
+    /* border: 4px solid #612897; */
+    transform: translateY(-5px);
+    cursor: pointer;
+    /* background-color: #fd93c1; */
+    /* box-shadow: 0px 0px 5px #fd93c1 0px 0px 5px #fd93c1 inherit ; */
+    box-shadow: 2px 2px 13px 10px #EE3030;
+}
+
+.card:link {
+    color: none;
+    text-decoration: none;
+}
+
+.card:active {
+    color: none;
+    text-decoration: none;
+}
+
+.card:checked {
+    color:none;
+    text-decoration: none;
+}
+
+

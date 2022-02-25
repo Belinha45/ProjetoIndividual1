@@ -1,0 +1,54 @@
+/* .principal {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+} */
+
+.botão-altura {
+    height: 30px;
+}
+
+form {
+    /* width: 900px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form, .caixa {
+    border: none;
+    outline: unset;
+    border-radius: 5px 0 0 5px;
+}
+
+.caixa {
+    size: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.botao {
+    color: #75758b;
+    background-color: #fffcf2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    transition-duration: 0.4s;
+}
+
+.botao:hover {
+    color: black;
+    transition-duration: 0.4s;
+    background-color: #EE3030;
+}
+
+/* para celular aaaaa
+form {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

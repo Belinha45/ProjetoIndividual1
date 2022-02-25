@@ -10,19 +10,39 @@
 
 .cabecalho {
     display: flex;
-    background-color: #000000;
-    font-size: 30px;
+    background-color: #040500;
     align-items: center;
     justify-content: center;
-    color: #DA0037;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Press Start 2P', cursive;
     grid-area: "cabecalho";
+}
+
+.principal {
+    /* padding-left: 90px; */
+    padding-right: 250px;
+    display: flex;
+    color: #fffcf2;
+    font-size: 29px;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Press Start 2P', cursive; */
+    font-family: 'Rubik', sans-serif;
     padding-top: 6px;
 }
 
+.home {
+    /* padding-left: 90px; */
+    display:flex;
+    width: 25px;
+    padding-left: 385px;
+    /* padding-right: 80px; */
+
+}
+
 footer, .rodape {
+    font-size: 10px;
+    color: #F4F4F4;
     grid-area: "rodape";
+    text-align: center;
+    background: #000000;
 }
 
 /*                 Barra de Scroll                   */

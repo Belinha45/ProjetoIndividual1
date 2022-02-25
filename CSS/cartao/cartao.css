@@ -3,7 +3,13 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    border-radius: 5px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.cartao:hover {
+    box-shadow: 2px 2px 13px 10px #59458e;
+    transition: 0.4s;
+
 }
 
 /*                  Responsividade                   */

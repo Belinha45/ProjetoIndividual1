@@ -1,0 +1,12 @@
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: blueviolet; */
+    /* background-image: linear-gradient(to bottom,#913A87,#5B4A8A,#334D76,#2F4858) */
+    background-image: linear-gradient(to bottom,#000000,#2A272A,#2A272A,#000000)
+    /* background: #f0e9e9; */
+}
