@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Imagens/moeda.png" type="image/x-icon" />    
     <title>Player One</title>
+    <script type="text/javascript" src="./JS/main.js"></script>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/botao.css">
     <link rel="stylesheet" href="CSS/reset.css">
@@ -39,8 +40,7 @@
 
             <form>
 
-                <label for="Email"></label>
-                <input class="caixa" type="text" size="35" placeholder="Busque seu jogo aqui">
+                <input onkeyup="filter()" id="barraPesquisa" class="caixa" type="search" size="35" placeholder="Busque seu jogo aqui">
                 <input class="botao" type="submit" value="Press Start">
 
             </form>
@@ -53,7 +53,7 @@
 
     </header>
 
-    <section class="cartoes">
+    <section id="cartoes" class="cartoes">
         </div>
             <div class="cartao">
                 <img class="cartao_imagem" src="./Imagens/indie/celeste.jpg" alt="Capa do jogo Roblox">
@@ -108,7 +108,7 @@
                 <img class="cartao_imagem" src="./Imagens/indie/hollowknight.jpg" alt="Capa do jogo Hollow Knight">
                 <div class="cartao_conteudo">
                     <h4 class="cartao_titulo" >Hollow Knight</h4>
-                    <p class="descrição">Hollow Knight é um jogo indie 2D. Você explora e batalha pelo mundo em uma grande aventura.</p>
+                    <p class="descrição">Desça no mundo de Hollow Knight! O premiado jogo ação/aventura de insetos e heróis. Explore cavernas serpenteantes, cidades antigas e ermos mortais. Lute contra criaturas malignas, alie-se a insetos bizarros. Descubra a história antiga e solucione mistérios enterrados no coração do reino.</p>
                 </div>
             </div>
             <div class="cartao">
@@ -121,6 +121,12 @@
         </div>
 
     </section>
+
+    <footer class="rodape">
+        ©2022, Belinha45.
+    </footer>
     
+    <script src="JS/teste.js"></script>
+
 </body>
 </html>
